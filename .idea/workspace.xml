@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="257a2078-bc7f-4d26-8dd8-f99cb718bbc3" name="Default" comment="" />
+    <ignored path="instituteqk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="instituteqk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="57" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="57" />
+              <folding>
+                <marker date="1464599856969" expanded="true" signature="193:228" placeholder="SELECT * FRO... settings" />
+                <marker date="1464599856969" expanded="true" signature="1598:1661" placeholder="SELECT * FRO... institutes" />
+                <marker date="1464599856969" expanded="true" signature="2106:2163" placeholder="SELECT * FRO... themes" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ControlPanel/template/programs/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1456874440579" expanded="true" signature="981:1062" placeholder="SELECT * FRO... event_category" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="programs.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ControlPanel/programs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+              <folding>
+                <marker date="1456874579813" expanded="true" signature="985:1022" placeholder="SELECT * FRO... programs" />
+                <marker date="1456874579813" expanded="true" signature="1908:1945" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="institutes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ControlPanel/institutes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="119" />
+              <folding>
+                <marker date="1482143990052" expanded="true" signature="402:475" placeholder="SELECT * FRO... institutes" />
+                <marker date="1482143990052" expanded="true" signature="6873:6912" placeholder="SELECT * FRO... institutes" />
+                <marker date="1482143990052" expanded="true" signature="7663:7702" placeholder="DELETE FROM " />
+                <marker date="1482143990052" expanded="true" signature="8084:8100" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding>
+                <marker date="1458940410734" expanded="true" signature="1994:2072" placeholder="SELECT * FRO... slideshow" />
+                <marker date="1458940410734" expanded="true" signature="14675:14774" placeholder="SELECT * FRO... blog" />
+                <marker date="1458940410734" expanded="true" signature="16904:17003" placeholder="SELECT * FRO... blog" />
+                <marker date="1458940410734" expanded="true" signature="20048:20147" placeholder="SELECT * FRO... blog" />
+                <marker date="1458940410734" expanded="true" signature="29578:29679" placeholder="SELECT * FRO... blog" />
+                <marker date="1458940410734" expanded="true" signature="34595:34696" placeholder="SELECT * FRO... blog" />
+                <marker date="1458940410734" expanded="true" signature="42768:42821" placeholder="SELECT * FRO... partners" />
+                <marker date="1458940410734" expanded="true" signature="45464:45517" placeholder="SELECT * FRO... partners" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2057">
+              <caret line="121" column="59" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="59" />
+              <folding>
+                <marker date="1482145479421" expanded="true" signature="6079:6159" placeholder="SELECT * FRO... menu" />
+                <marker date="1482145479421" expanded="true" signature="6315:6423" placeholder="SELECT * FRO... pages" />
+                <marker date="1482145479421" expanded="true" signature="8066:8110" placeholder="SELECT * FRO... institutes" />
+                <marker date="1482145479421" expanded="true" signature="9323:9370" placeholder="SELECT * FRO... blog_category" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="106" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/include/config.php" />
+        <option value="$PROJECT_DIR$/ControlPanel/template/menu/show.php" />
+        <option value="$PROJECT_DIR$/ControlPanel/right.php" />
+        <option value="$PROJECT_DIR$/ControlPanel/template/institutes/edit.php" />
+        <option value="$PROJECT_DIR$/account.php" />
+        <option value="$PROJECT_DIR$/account-result-evaluate-educational-environment.php" />
+        <option value="$PROJECT_DIR$/account-postponement-semester.php" />
+        <option value="$PROJECT_DIR$/account-result-postponement-semester.php" />
+        <option value="$PROJECT_DIR$/ControlPanel/.htaccess" />
+        <option value="$PROJECT_DIR$/testmenu/.htaccess" />
+        <option value="$PROJECT_DIR$/ControlPanel/institutes.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/text.txt" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ControlPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ControlPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instituteqk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ControlPanel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="programs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="257a2078-bc7f-4d26-8dd8-f99cb718bbc3" name="Default" comment="" />
+      <created>1481357753071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481357753071</updated>
+      <workItem from="1481357754643" duration="2585000" />
+      <workItem from="1481519959914" duration="9068000" />
+      <workItem from="1481704217483" duration="136000" />
+      <workItem from="1481778062842" duration="283000" />
+      <workItem from="1481952597402" duration="34000" />
+      <workItem from="1482038511943" duration="6209000" />
+      <workItem from="1482129233117" duration="9263000" />
+      <workItem from="1482140515772" duration="5865000" />
+      <workItem from="1482207820166" duration="963000" />
+      <workItem from="1482229862776" duration="1503000" />
+      <workItem from="1482299808096" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35988000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.284041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ControlPanel/programs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1456874579813" expanded="true" signature="985:1022" placeholder="SELECT * FRO... programs" />
+            <marker date="1456874579813" expanded="true" signature="1908:1945" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlPanel/institutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="119" />
+          <folding>
+            <marker date="1482143990052" expanded="true" signature="402:475" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482143990052" expanded="true" signature="6873:6912" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482143990052" expanded="true" signature="7663:7702" placeholder="DELETE FROM " />
+            <marker date="1482143990052" expanded="true" signature="8084:8100" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <marker date="1458940410734" expanded="true" signature="1994:2072" placeholder="SELECT * FRO... slideshow" />
+            <marker date="1458940410734" expanded="true" signature="14675:14774" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="16904:17003" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="20048:20147" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="29578:29679" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="34595:34696" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="42768:42821" placeholder="SELECT * FRO... partners" />
+            <marker date="1458940410734" expanded="true" signature="45464:45517" placeholder="SELECT * FRO... partners" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" column="59" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="59" />
+          <folding>
+            <marker date="1482145479421" expanded="true" signature="6079:6159" placeholder="SELECT * FRO... menu" />
+            <marker date="1482145479421" expanded="true" signature="6315:6423" placeholder="SELECT * FRO... pages" />
+            <marker date="1482145479421" expanded="true" signature="8066:8110" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482145479421" expanded="true" signature="9323:9370" placeholder="SELECT * FRO... blog_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="106" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="57" />
+          <folding>
+            <marker date="1464599856969" expanded="true" signature="193:228" placeholder="SELECT * FRO... settings" />
+            <marker date="1464599856969" expanded="true" signature="1598:1661" placeholder="SELECT * FRO... institutes" />
+            <marker date="1464599856969" expanded="true" signature="2106:2163" placeholder="SELECT * FRO... themes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlPanel/template/programs/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1456874440579" expanded="true" signature="981:1062" placeholder="SELECT * FRO... event_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlPanel/programs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1456874579813" expanded="true" signature="985:1022" placeholder="SELECT * FRO... programs" />
+            <marker date="1456874579813" expanded="true" signature="1908:1945" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlPanel/institutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="119" />
+          <folding>
+            <marker date="1482143990052" expanded="true" signature="402:475" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482143990052" expanded="true" signature="6873:6912" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482143990052" expanded="true" signature="7663:7702" placeholder="DELETE FROM " />
+            <marker date="1482143990052" expanded="true" signature="8084:8100" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <marker date="1458940410734" expanded="true" signature="1994:2072" placeholder="SELECT * FRO... slideshow" />
+            <marker date="1458940410734" expanded="true" signature="14675:14774" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="16904:17003" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="20048:20147" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="29578:29679" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="34595:34696" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="42768:42821" placeholder="SELECT * FRO... partners" />
+            <marker date="1458940410734" expanded="true" signature="45464:45517" placeholder="SELECT * FRO... partners" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" column="59" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="59" />
+          <folding>
+            <marker date="1482145479421" expanded="true" signature="6079:6159" placeholder="SELECT * FRO... menu" />
+            <marker date="1482145479421" expanded="true" signature="6315:6423" placeholder="SELECT * FRO... pages" />
+            <marker date="1482145479421" expanded="true" signature="8066:8110" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482145479421" expanded="true" signature="9323:9370" placeholder="SELECT * FRO... blog_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="106" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlPanel/institutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="119" />
+          <folding>
+            <marker date="1482143990052" expanded="true" signature="402:475" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482143990052" expanded="true" signature="6873:6912" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482143990052" expanded="true" signature="7663:7702" placeholder="DELETE FROM " />
+            <marker date="1482143990052" expanded="true" signature="8084:8100" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <marker date="1458940410734" expanded="true" signature="1994:2072" placeholder="SELECT * FRO... slideshow" />
+            <marker date="1458940410734" expanded="true" signature="14675:14774" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="16904:17003" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="20048:20147" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="29578:29679" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="34595:34696" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="42768:42821" placeholder="SELECT * FRO... partners" />
+            <marker date="1458940410734" expanded="true" signature="45464:45517" placeholder="SELECT * FRO... partners" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" column="59" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="59" />
+          <folding>
+            <marker date="1482145479421" expanded="true" signature="6079:6159" placeholder="SELECT * FRO... menu" />
+            <marker date="1482145479421" expanded="true" signature="6315:6423" placeholder="SELECT * FRO... pages" />
+            <marker date="1482145479421" expanded="true" signature="8066:8110" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482145479421" expanded="true" signature="9323:9370" placeholder="SELECT * FRO... blog_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="106" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instituteqk/include/config.php" />
+    <entry file="file://$PROJECT_DIR$/account.php" />
+    <entry file="file://$PROJECT_DIR$/account-evaluate-educational-environment.php" />
+    <entry file="file://$PROJECT_DIR$/account-result-evaluate-educational-environment.php" />
+    <entry file="file://$PROJECT_DIR$/account-postponement-semester.php" />
+    <entry file="file://$PROJECT_DIR$/account-result-postponement-semester.php" />
+    <entry file="file://$PROJECT_DIR$/account.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/themes.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/template/menu/show.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/index.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/main-menu.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/menu.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/right.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/template/institutes/edit.php" />
+    <entry file="file://$PROJECT_DIR$/account-result-submit-proposal.php" />
+    <entry file="file://$PROJECT_DIR$/account-result-evaluate-educational-environment.php" />
+    <entry file="file://$PROJECT_DIR$/account-postponement-semester.php" />
+    <entry file="file://$PROJECT_DIR$/account-result-postponement-semester.php" />
+    <entry file="file://$PROJECT_DIR$/account-evaluate-educational-environment.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/template/institutes/add.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/testmenu/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/include/config.php" />
+    <entry file="file://$PROJECT_DIR$/instituteqk/include/config.php" />
+    <entry file="file://$PROJECT_DIR$/ControlPanel/institutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="119" />
+          <folding>
+            <marker date="1482143990052" expanded="true" signature="402:475" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482143990052" expanded="true" signature="6873:6912" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482143990052" expanded="true" signature="7663:7702" placeholder="DELETE FROM " />
+            <marker date="1482143990052" expanded="true" signature="8084:8100" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <marker date="1458940410734" expanded="true" signature="1994:2072" placeholder="SELECT * FRO... slideshow" />
+            <marker date="1458940410734" expanded="true" signature="14675:14774" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="16904:17003" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="20048:20147" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="29578:29679" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="34595:34696" placeholder="SELECT * FRO... blog" />
+            <marker date="1458940410734" expanded="true" signature="42768:42821" placeholder="SELECT * FRO... partners" />
+            <marker date="1458940410734" expanded="true" signature="45464:45517" placeholder="SELECT * FRO... partners" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" column="59" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="59" />
+          <folding>
+            <marker date="1482145479421" expanded="true" signature="6079:6159" placeholder="SELECT * FRO... menu" />
+            <marker date="1482145479421" expanded="true" signature="6315:6423" placeholder="SELECT * FRO... pages" />
+            <marker date="1482145479421" expanded="true" signature="8066:8110" placeholder="SELECT * FRO... institutes" />
+            <marker date="1482145479421" expanded="true" signature="9323:9370" placeholder="SELECT * FRO... blog_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="106" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="57" />
+          <folding>
+            <marker date="1464599856969" expanded="true" signature="193:228" placeholder="SELECT * FRO... settings" />
+            <marker date="1464599856969" expanded="true" signature="1598:1661" placeholder="SELECT * FRO... institutes" />
+            <marker date="1464599856969" expanded="true" signature="2106:2163" placeholder="SELECT * FRO... themes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlPanel/template/programs/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1456874440579" expanded="true" signature="981:1062" placeholder="SELECT * FRO... event_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ControlPanel/programs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <marker date="1456874579813" expanded="true" signature="985:1022" placeholder="SELECT * FRO... programs" />
+            <marker date="1456874579813" expanded="true" signature="1908:1945" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

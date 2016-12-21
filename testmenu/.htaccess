@@ -1,0 +1,11 @@
+RewriteEngine On [L]
+
+ 
+RewriteRule ^institute/([^/]*)$ index.php?institute=$1 [L]
+
+RewriteRule ^page/([^/]*)$ page.php?seo_link=$1 [L]
+RewriteRule ^blog/([^/]*)$ blog.php?cat=$1 [L]
+RewriteRule ^post/([^/]*)$ post.php?seo_link=$1 [L]
+
+#Error:
+ErrorDocument 404 '<h2>Ooops 404</h2>'
