@@ -33,7 +33,7 @@
  	$subdomain = basename(dirname($_SERVER['PHP_SELF']));
 	$url_file	= $site_url;
 	$subdomain_url = "http://".$_SERVER['HTTP_HOST']."/".$subdomain;
-	
+
 #############################################################
 # Get Theme
 #############################################################
@@ -46,11 +46,11 @@
 	} else {
 		$institute_id = '1';
 	}
-	
+
 	if($_SESSION['insert_id'] == '') {
 		$_SESSION['insert_id'] = '1';
 	}
-	
+
 	
 /*	echo 'subdomain = '.$subdomain."<br>";
 	echo 'SESSION insert_id = '.$_SESSION['insert_id']."<br>";

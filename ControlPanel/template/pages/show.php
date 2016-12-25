@@ -9,6 +9,7 @@
 <div class="panel">
 					<div class="panel-heading">
 						<span class="panel-title">الصفحات</span>
+
 					</div>
 					<div class="panel-body">
                                         <a href="?do=add" class="btn btn-primary btn-add">جديد</a>

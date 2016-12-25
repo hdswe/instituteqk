@@ -26,7 +26,7 @@
 //		recurse_copy('../original_institute','../'.$_POST['seo_link']);
 			$current = file_get_contents('../.htaccess');
 			$siteUrl=$_POST['seo_link'];
-			$current .= "RewriteRule \"^$siteUrl$\"  \"index.php?institutes=$siteUrl\" \n";
+			$current .= "RewriteRule \"^$siteUrl$\"  \"index.php?seo_link=$siteUrl\" \n";
 			file_put_contents('../.htaccess',$current);
 		$data_th['insert_id']			= $_POST['user_id'];
 		$insert_th						= $pdo->pdoInsUpd('themes', $data_th);
@@ -34,104 +34,132 @@
 		//Insert Page Menu 1
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '1';
 		$data_mn['title'] 		= 'تعريف يإدارة المعاهد وتأسيسها'; 		$data_mn['seo_link']	= GeraHash(9);
+		$data_mn['institutes_seo_link']=$_POST['seo_link'];
 		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
-
+			$page_link=$data_mn['seo_link'];
+			$current .= "RewriteRule ^$siteUrl/page/([^/]*)$   page.php?seo_link=$siteUrl&page=$1 [L]  \n";
+			file_put_contents('../.htaccess',$current);
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '1';
 		$data_mn['title'] 		= 'الرؤية والرسالة والأهداف'; 			$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '1';
 		$data_mn['title'] 		= 'الهيكل الإداري'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '1';
 		$data_mn['title'] 		= 'اللوائح والأنظمة'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		//Insert Page Menu 2
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '2';
 		$data_mn['title'] 		= 'إدارة الشؤون التعليمية'; 				$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '2';
 		$data_mn['title'] 		= 'قسم شؤون معاهد المعلمات'; 			$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		//Insert Page Menu 3
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '3';
 		$data_mn['title'] 		= 'الدبلومات'; 						$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '3';
 		$data_mn['title'] 		= 'البرامج'; 						$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '3';
 		$data_mn['title'] 		= 'المسابقات'; 						$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		//Insert Page Menu 4
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '4';
 		$data_mn['title'] 		= 'الإدارة (الشؤون التعليمية)';			$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '4';
 		$data_mn['title'] 		= 'المعاهد'; 						$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '4';
 		$data_mn['title'] 		= 'خدمات  الموظفين'; 				$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '4';
 		$data_mn['title'] 		= 'خدمات الطلاب'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '4';
 		$data_mn['title'] 		= 'اتصالات ادارية'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '4';
 		$data_mn['title'] 		= 'التوظيف والتطوع'; 				$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
-		
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+
 		//Insert Page Menu 5
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '5';
 		$data_mn['title'] 		= 'المكتبة الإدارية'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '5';
 		$data_mn['title'] 		= 'المكتبة التعليمية والتربوية'; 			$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '5';
 		$data_mn['title'] 		= 'المكتبة العامة'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '5';
 		$data_mn['title'] 		= 'البحوث والدراسات'; 				$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '5';
 		$data_mn['title'] 		= 'تنزيل المقررات'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
-		
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+
 		//Insert Page Menu 6
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '7';
 		$data_mn['title'] 		= 'أرقام التواصل'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '7';
 		$data_mn['title'] 		= 'الموقع الجغرافي'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '7';
 		$data_mn['title'] 		= 'المراسلة'; 						$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		$data_mn['insert_id'] 	= $_POST['user_id']; 			$data_mn['menu_id'] 	= '7';
 		$data_mn['title'] 		= 'الدعم والتبرع'; 					$data_mn['seo_link']	= GeraHash(9);
-		$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
+			$data_mn['institutes_seo_link']=$_POST['seo_link'];
+			$insert_mn				= $pdo->pdoInsUpd('pages', $data_mn);
 
 		header('Location: ?do=show&process=successfully');
 		}

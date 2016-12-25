@@ -1,16 +1,25 @@
 <?
  include('header.php');
- 
-	if($_GET['seo_link'] != NULL){
-		$sql_pg = "SELECT * FROM `pages` WHERE `seo_link` LIKE '".$_GET['seo_link']."'";
+
+if($_GET['seo_link'] != NULL){
+    if($_GET['page'] == Null){
+        $sql_pg = "SELECT * FROM `pages` WHERE `seo_link` LIKE '".$_GET['seo_link']."'";
+        
         $result_pg = $pdo->pdoGetRow($sql_pg);
-		
-/*		$sql = "SELECT * FROM `institutes` WHERE id=".$result_pg['insert_id']."";
-        $result = $pdo->pdoGetRow($sql, $data);
-		$institute_id = $result['user_id'];
-		$_SESSION['institute_name'] = $result['title'];
-*/
-	} else { die(); }
+
+        /*		$sql = "SELECT * FROM `institutes` WHERE id=".$result_pg['insert_id']."";
+                $result = $pdo->pdoGetRow($sql, $data);
+                $institute_id = $result['user_id'];
+                $_SESSION['institute_name'] = $result['title'];
+        */
+    }else{
+        $sql_in_pg = "SELECT * FROM `pages` WHERE `seo_link` LIKE '".$_GET['page']."'
+		 And `institutes_seo_link` LIKE '".$_GET['seo_link']."'";
+        $result_pg = $pdo->pdoGetRow($sql_in_pg);
+
+    }
+
+}  else { die(); }
 	if($result_pg['title'] == "الدبلومات") { header('Location: '.$site_url.'/diploma.php'); }
 	if($result_pg['title'] == "البرامج") { header('Location: '.$site_url.'/programs.php'); }
 	if($result_pg['title'] == "المسابقات") { header('Location: '.$site_url.'/competitions.php'); }
@@ -21,7 +30,7 @@
 	if($result_pg['title'] == "البحوث والدراسات") { header('Location: '.$site_url.'/library.php?id=4'); }
 	if($result_pg['title'] == "البحوث والدراسات") { header('Location: '.$site_url.'/library.php?id=4'); }
 	if($result_pg['title'] == "تنزيل المقررات") { header('Location: '.$site_url.'/library.php?id=5'); }
-	
+
 	// contact
 	if($result_pg['title'] == "المراسلة") { header('Location: '.$site_url.'/contact.php'); }
 
