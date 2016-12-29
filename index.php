@@ -70,8 +70,14 @@ include('header.php');
                                           <div class="sppb-addon sppb-addon-feature sppb-text-center ">
                                              <div class="sppb-addon-content">
                                                 <div class="sppb-icon"><span style="display:inline-block;text-align:center;;"><i class="fa fa-gear" style="font-size:40px;width:42px;height:42px;line-height:42px;;"></i></span></div>
-                                                <h3 class="sppb-feature-box-title" style=""><a href="<?= $site_url ?>/register.php">تسجيل الطالبات</a></h3>
-                                             </div>
+                                                 <?if($_GET['seo_link'] != null){?>
+                                                <h3 class="sppb-feature-box-title" style=""><a href="register.php?seo_link=<?= $_GET['seo_link'] ?>">تسجيل الطالبات</a></h3>
+
+
+                                             <?}else{?>
+                                                <h3 class="sppb-feature-box-title" style=""><a href="register.php">تسجيل الطالبات</a></h3>
+                                             <?}?>
+                                          </div>
                                           </div>
                                        </div>
                                     </div>
@@ -81,7 +87,11 @@ include('header.php');
                                           <div class="sppb-addon sppb-addon-feature sppb-text-center ">
                                              <div class="sppb-addon-content">
                                                 <div class="sppb-icon"><span style="display:inline-block;text-align:center;;"><i class="fa fa-envelope" style="font-size:40px;width:42px;height:42px;line-height:42px;;"></i></span></div>
-                                                <h3 class="sppb-feature-box-title" style=""><a href="<?= $site_url ?>/ControlPanel/">دخول الموظفين</a></h3>
+                                                <? if ($_GET['seo_link'] != null){?>
+                                                <h3 class="sppb-feature-box-title" style=""><a href="login_employee.php?seo_link=<?= $_GET['seo_link'] ?>">دخول الموظفين</a></h3>
+                                                <?}else{?>
+                                                <h3 class="sppb-feature-box-title" style=""><a href="login_employee.php">دخول الموظفين</a></h3>
+                                                <?}?>
                                              </div>
                                           </div>
                                        </div>
@@ -92,8 +102,12 @@ include('header.php');
                                           <div class="sppb-addon sppb-addon-feature sppb-text-center ">
                                              <div class="sppb-addon-content">
                                                 <div class="sppb-icon"><span style="display:inline-block;text-align:center;;"><i class="fa fa-sign-in" style="font-size:40px;width:42px;height:42px;line-height:42px;;"></i></span></div>
-                                                <h3 class="sppb-feature-box-title" style=""><a href="<?= $site_url ?>/login.php">دخول الطلاب</a></h3>
-                                             </div>
+                                          <? if ($_GET['seo_link'] != null){?>
+                                                <h3 class="sppb-feature-box-title" style=""><a href="login.php?seo_link=<?= $_GET['seo_link'] ?>">دخول الطلاب</a></h3>
+                                           <?}else{?>
+                                             <h3 class="sppb-feature-box-title" style=""><a href="login.php">دخول الطلاب</a></h3>
+<?}?>
+   </div>
                                           </div>
                                        </div>
                                     </div>

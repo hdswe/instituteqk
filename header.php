@@ -116,7 +116,7 @@ $instituteidd=$result_pg['user_id'];
                     <div class="sp-column ">
                         <div class='sp-megamenu-wrapper'>
                             <ul class="sp-megamenu-parent menu-fade-up hidden-xs">
-                                <li class="sp-menu-item"><a href="<?= $site_url ?>/index.php">الرئيسية</a></li>
+                                <li class="sp-menu-item"><a href="<?= $site_url ?>/index.php"><?=$_SESSION['user_id']?></a></li>
                                 <?
                                 $sql_menu = "SELECT * FROM `menu` WHERE insert_id=".$institute_id." ORDER BY `order_menu` ASC";
                                 $rows_menu = $pdo->pdoGetAll($sql_menu);

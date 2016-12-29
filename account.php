@@ -1,11 +1,11 @@
 <?
 	include( 'header.php');
-/*	if(isset($_SESSION['user_id'])){
+	if(isset($_SESSION['user_id'])){
 		$result_user = $pdo->pdoGetRow("SELECT * FROM `users` WHERE `id` = ".$_SESSION['user_id']."");
 	}else{
 		header('location: login.php');	
 	}
-*/	
+	
 ?>
 <section id="sp-page-title">
   <div class="row">

@@ -7,7 +7,9 @@
 #############################################################
 
     if(isset($_POST['btn-login'])) {
-        $sql = "SELECT * FROM `users` where username=:username AND password=:password";
+        $sqlins = "SELECT `id` FROM `institutes` WHERE `seo_link` LIKE '".$_GET['seo_link']."'";
+        $institute_id = $pdo->pdoGetRow($sqlins);
+        $sql = "SELECT * FROM `users` where username=:username AND password=:password And institute_id='".$institute_id['id']."'";
         $data[username] = $_POST['username'];
         $data[password] = $_POST['password'];
     	$rowCount = $pdo->pdoExecute($sql,$data);

@@ -335,17 +335,24 @@ ob_start();
                 <div class="control-group col-md-6">
                   <label class="control-label" for="diploma_id">المعهد المطلوب الالتحاق به </label>
                   <div class="controls">
-                    <select id="institute_id" name="institute_id" class="form-control" required>
-                      <option value="0">---أختر المعهد---</option>
-                      <?
-                                    $sql_institute = $pdo->pdoGetAll("SELECT * FROM `institutes` ORDER BY `id` DESC");
-                                    foreach($sql_institute as $result_institute) {
-?>
-                      <option value="<?= $result_institute['id'] ?>" <? if($_POST['institute_id'] == $result_institute['id']) { echo 'selected'; } ?>>
-                      <?= $result_institute['title'] ?>
-                      </option>
-                      <? } ?>
-                    </select>
+                      <?php if($_GET['seo_link'] != null){
+                          $sql_institute = $pdo->pdoGetAll("SELECT `title` FROM `institutes` WHERE `seo_link` LIKE '".$_GET['seo_link']."'");
+
+                          ?>
+                          <label><?=$sql_institute[0]['title']?></label>
+                      <? }else{?>
+                          <select id="institute_id" name="institute_id" class="form-control" required>
+                              <option value="0">---أختر المعهد---</option>
+                              <?
+                              $sql_institute = $pdo->pdoGetAll("SELECT * FROM `institutes` ORDER BY `id` DESC");
+                              foreach($sql_institute as $result_institute) {
+                                  ?>
+                                  <option value="<?= $result_institute['id'] ?>" <? if($_POST['institute_id'] == $result_institute['id']) { echo 'selected'; } ?>>
+                                      <?= $result_institute['title'] ?>
+                                  </option>
+                              <? } ?>
+                          </select>
+                      <?}?>
                   </div>
                 </div>
                 <div class="control-group col-md-6">

@@ -9,14 +9,14 @@ RewriteRule ^post/([^/]*)$ post.php?seo_link=$1 [L]
 
 #Error:
 ErrorDocument 404 '<h2>Ooops 404</h2>'
-RewriteRule "^test$"  "index.php?institutes=test"
-RewriteRule "^testtest$"  "index.php?institutes=testtest"
-RewriteRule "^ramy$"  "index.php?institutes=ramy"
-RewriteRule "^testtest$"  "index.php?institutes=testtest"
-#RewriteRule "^norhan$"  "page.php?seo_link=norhan"
 
-RewriteRule "^norhan$"  "index.php?seo_link=norhan"
-RewriteRule ^norhan/page/([^/]*)$  page.php?seo_link=norhan&page=$1 [L]
 
-RewriteRule "^aaaaaaaaa$"  "index.php?seo_link=aaaaaaaaa"
-RewriteRule ^aaaaaaaaa/page/([^/]*)$   page.php?seo_link=aaaaaaaaa&page=$1 [L]  
+
+
+RewriteRule "^norhan$"  "index.php?seo_link=norhan" 
+RewriteRule ^norhan/page/([^/]*)$   page.php?seo_link=norhan&page=$1 [L]  
+RewriteRule "^east$"  "index.php?seo_link=east"
+
+RewriteRule ^east/page/([^/]*)$   page.php?seo_link=east&page=$1 [L]  
+RewriteRule "^norhan$"  "index.php?seo_link=norhan" 
+RewriteRule ^norhan/page/([^/]*)$   page.php?seo_link=norhan&page=$1 [L]  

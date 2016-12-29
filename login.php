@@ -7,18 +7,32 @@
 #############################################################
 
     if(isset($_POST['btn-login'])) {
-        $sql = "SELECT * FROM `users` where id_number=:id_number AND password=:password";
+        if($_GET['seo_link'] != null){
+        $sqlins = "SELECT `id` FROM `institutes` WHERE `seo_link` LIKE '".$_GET['seo_link']."'";
+        $institute_id = $pdo->pdoGetRow($sqlins);
+        $sql = "SELECT * FROM `users` where id_number=:id_number AND password=:password And institute_id='".$institute_id['id']."'";
         $data[id_number] = $_POST['id_number'];
         $data[password] = $_POST['password'];
     	$rowCount = $pdo->pdoExecute($sql,$data);
    		if($pdo->pdoRowCount($rowCount) == '1') {
-			$result = $pdo->pdoGetRow($sql,$data);
-			$_SESSION['user_id'] = $result['id'];
+            $_SESSION['user_id'] = $result['id'];
 			header('Location: ?process=succes-login');
 		} else {
 			header('Location: ?process=eroor-login');
 		}
-	}
+	}else{
+            $sql = "SELECT * FROM `users` where id_number=:id_number AND password=:password ";
+            $data[id_number] = $_POST['id_number'];
+            $data[password] = $_POST['password'];
+            $rowCount = $pdo->pdoExecute($sql,$data);
+            if($pdo->pdoRowCount($rowCount) == '1') {
+                $_SESSION['user_id'] = $result['id'];
+                header('Location: ?process=succes-login');
+            } else {
+                header('Location: ?process=eroor-login');
+            }
+        }
+    }
 
 ?>
 

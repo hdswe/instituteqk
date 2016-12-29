@@ -89,6 +89,7 @@
 									  <th>المؤلف</th>
 									  <th>المجال</th>
 									  <th>التصنيف</th>
+									  <th>نوع الملف</th>
 									  <th align="center">تحميل</th>
 									</tr>
 								</thead>
@@ -128,9 +129,21 @@
 									  }
 									  ?>
 </td>
+
 									  <td align="center" class="center">
-                                        <a href="upload/<?= $result['file'] ?>" data-toggle="tooltip" data-placement="top" title="تحميل" data-original-title="تحميل"><i class="fa fa-download"></i></a>
+                                        <p href="upload/<?= $result['file'] ?>" data-toggle="tooltip" data-placement="top" data-original-title="<?=pathinfo($result['file'], PATHINFO_EXTENSION)?>"><i class="
+                                        <?$ext=pathinfo($result['file'], PATHINFO_EXTENSION); if($ext == 'jpg' || $ext == 'jpeg' || $ext == 'png'|| $ext == 'gif'){echo 'fa fa-picture-o';}
+                                            elseif($ext == 'mp4' || $ext == 'mov' || $ext == 'mpg' || $ext == 'flv'){echo 'fa fa-video-camera';}
+                                            elseif($ext == 'mp3' || $ext == 'wav' || $ext == 'spx' || $ext == 'cda'){echo 'fa fa-file-audio-o';}
+                                            else{echo 'fa fa-file';}
+
+                                            ?>
+
+                                        "></i></p>
                                       </td>
+                                        <td align="center" class="center">
+                                            <a href="upload/<?= $result['file'] ?>" data-toggle="tooltip" data-placement="top" title="تحميل" data-original-title="تحميل"><i class="fa fa-download"></i></a>
+                                        </td>
 									</tr>
                                     <? $i++; }  ?>
 								</tbody>
